@@ -30,7 +30,8 @@ public final class Queue<E> : Sequence {
 	/// Initializes an empty queue.
 	public init() {}
 
-	public func enqueue(item: E) {				
+	public func enqueue(item: E) {			
+		count += 1
 		if head == nil{
 			head = Node(item: item, next: nil)
 			return
@@ -47,6 +48,7 @@ public final class Queue<E> : Sequence {
 		guard let oldHead = head else{
 			return nil
 		} 
+		count -= 1
 		head = head?.next
 		return oldHead.item
 	}
