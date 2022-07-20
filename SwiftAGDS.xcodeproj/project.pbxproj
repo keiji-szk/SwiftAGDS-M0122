@@ -19,6 +19,7 @@
 		4EAB826D287F41E5008906AD /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB826C287F41E5008906AD /* Backtracking.swift */; };
 		4EAB8270287F4A04008906AD /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB826F287F4A04008906AD /* QueensSolver.swift */; };
 		4EAB8272287F4A10008906AD /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB8271287F4A10008906AD /* Board.swift */; };
+		E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8B756288872C90046CA9C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		4EAB826C287F41E5008906AD /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		4EAB826F287F4A04008906AD /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 		4EAB8271287F4A10008906AD /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E5F8B756288872C90046CA9C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		4E732882287C9D5F002C1EB3 /* SwiftAGDS */ = {
 			isa = PBXGroup;
 			children = (
+				E5F8B7552888729A0046CA9C /* DesigningAlgorithms(Presentation) */,
 				4E0589662888607F0039CF70 /* DataStructures1 */,
 				4E8BA5112885BD2C002461FB /* SearchingSorting */,
 				4EAB826E287F49F6008906AD /* MiniProject2 */,
@@ -135,6 +138,14 @@
 				4EAB8271287F4A10008906AD /* Board.swift */,
 			);
 			path = MiniProject2;
+			sourceTree = "<group>";
+		};
+		E5F8B7552888729A0046CA9C /* DesigningAlgorithms(Presentation) */ = {
+			isa = PBXGroup;
+			children = (
+				E5F8B756288872C90046CA9C /* PriorityQueue.swift */,
+			);
+			path = "DesigningAlgorithms(Presentation)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				4E8BA5152885BF85002461FB /* Sorting.swift in Sources */,
 				4E8BA5132885BD6A002461FB /* Searching.swift in Sources */,
 				4EAB8270287F4A04008906AD /* QueensSolver.swift in Sources */,
+				E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
