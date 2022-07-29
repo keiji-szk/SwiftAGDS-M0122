@@ -20,6 +20,7 @@
 		4EAB8270287F4A04008906AD /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB826F287F4A04008906AD /* QueensSolver.swift */; };
 		4EAB8272287F4A10008906AD /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB8271287F4A10008906AD /* Board.swift */; };
 		E57ED95D2891D6CA00A308FE /* ProblemSet2(Graph).swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */; };
+		E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95F28930B0E00A308FE /* TreeTraversal.swift */; };
 		E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8B756288872C90046CA9C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		4EAB826F287F4A04008906AD /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 		4EAB8271287F4A10008906AD /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProblemSet2(Graph).swift"; sourceTree = "<group>"; };
+		E57ED95F28930B0E00A308FE /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
 		E5F8B756288872C90046CA9C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 		4E732882287C9D5F002C1EB3 /* SwiftAGDS */ = {
 			isa = PBXGroup;
 			children = (
+				E57ED95E28930A4D00A308FE /* Tree */,
 				E57ED95B2891D6B100A308FE /* Assignment */,
 				E5F8B7552888729A0046CA9C /* DesigningAlgorithms(Presentation) */,
 				4E0589662888607F0039CF70 /* DataStructures1 */,
@@ -149,6 +152,14 @@
 				E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		E57ED95E28930A4D00A308FE /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				E57ED95F28930B0E00A308FE /* TreeTraversal.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		E5F8B7552888729A0046CA9C /* DesigningAlgorithms(Presentation) */ = {
@@ -224,6 +235,7 @@
 				4EAB826D287F41E5008906AD /* Backtracking.swift in Sources */,
 				4E73288C287C9D93002C1EB3 /* Recursion.swift in Sources */,
 				4E05896A288860930039CF70 /* Stack.swift in Sources */,
+				E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */,
 				4EAB8272287F4A10008906AD /* Board.swift in Sources */,
 				4E05896C288860970039CF70 /* Queue.swift in Sources */,
 				4E732884287C9D5F002C1EB3 /* main.swift in Sources */,
