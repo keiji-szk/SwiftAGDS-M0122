@@ -7,18 +7,24 @@
 
 import Foundation
 
-let result1 = solveCyclicPermutation(arr: [3,2,7,8,1,4,5,6])
-assert(result1 == 3)
-let result2 = solveCyclicPermutation(arr: [2,1,3,4,5,6,7,9,10,8])
-assert(result2 == 7)
+// whoIsMyParent()
+//treeDiameter()
+//testWhoIsParent()
+whoIsMyParentConsole() 
+// whoIsMyParentConsole()
 
-let result3 = repeatingSequence(number: 57, pow:2)
-assert(result3 == 4)
-
-let result4 = repeatingSequence(number: 62, pow:3)
-assert(result4 == 8)
-
-findJudge(2, [[1,2]])
+//let result1 = solveCyclicPermutation(arr: [3,2,7,8,1,4,5,6])
+//assert(result1 == 3)
+//let result2 = solveCyclicPermutation(arr: [2,1,3,4,5,6,7,9,10,8])
+//assert(result2 == 7)
+//
+//let result3 = repeatingSequence(number: 57, pow:2)
+//assert(result3 == 4)
+//
+//let result4 = repeatingSequence(number: 62, pow:3)
+//assert(result4 == 8)
+//
+//findJudge(2, [[1,2]])
 
 
 //print("Enter something")

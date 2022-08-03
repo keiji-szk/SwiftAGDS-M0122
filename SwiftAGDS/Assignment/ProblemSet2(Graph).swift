@@ -126,3 +126,32 @@ func findCenter(_ edges: [[Int]]) -> Int {
 	}
 	return -1
 }
+
+
+
+
+
+class Excersize1 {
+	public class Node {
+		public var val: Int
+		public var children: [Node]
+		public init(_ val: Int) {
+			self.val = val
+			self.children = []
+		}
+	}
+	
+	func preorder(_ root: Node?) -> [Int] {
+		if root == nil {
+			return []
+		} 
+		
+		var ret: [Int] = []
+		ret.append(root!.val)
+		
+		for child in root!.children {
+			ret.append(contentsOf: preorder(child))
+		}
+		return ret	   
+	}
+}
