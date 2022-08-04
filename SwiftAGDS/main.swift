@@ -7,10 +7,14 @@
 
 import Foundation
 
+testSolutionLCA()
+// consoleSolutionLCA()
+
+
 // whoIsMyParent()
 //treeDiameter()
 //testWhoIsParent()
-whoIsMyParentConsole() 
+// whoIsMyParentConsole() 
 // whoIsMyParentConsole()
 
 //let result1 = solveCyclicPermutation(arr: [3,2,7,8,1,4,5,6])

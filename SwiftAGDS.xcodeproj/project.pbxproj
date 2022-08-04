@@ -22,6 +22,7 @@
 		E524725D2895B31D001390F9 /* ProblemSet4(TreeBasics).swift in Sources */ = {isa = PBXBuildFile; fileRef = E524725C2895B31D001390F9 /* ProblemSet4(TreeBasics).swift */; };
 		E57ED95D2891D6CA00A308FE /* ProblemSet2(Graph).swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */; };
 		E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95F28930B0E00A308FE /* TreeTraversal.swift */; };
+		E590A802289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */; };
 		E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8B756288872C90046CA9C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProblemSet2(Graph).swift"; sourceTree = "<group>"; };
 		E57ED95F28930B0E00A308FE /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
 		E590A7FF289AD8B400458C4C /* parent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = parent; sourceTree = "<group>"; };
+		E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProgramSet5(Lowest Common Ancestor) .swift"; sourceTree = "<group>"; };
+		E590A803289C2FF800458C4C /* LCATestCases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LCATestCases; sourceTree = "<group>"; };
 		E5F8B756288872C90046CA9C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,9 +155,11 @@
 		E57ED95B2891D6B100A308FE /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E590A803289C2FF800458C4C /* LCATestCases */,
 				E590A7FF289AD8B400458C4C /* parent */,
 				E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */,
 				E524725C2895B31D001390F9 /* ProblemSet4(TreeBasics).swift */,
+				E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				4EAB8272287F4A10008906AD /* Board.swift in Sources */,
 				4E05896C288860970039CF70 /* Queue.swift in Sources */,
 				4E732884287C9D5F002C1EB3 /* main.swift in Sources */,
+				E590A802289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift in Sources */,
 				4E8BA5152885BF85002461FB /* Sorting.swift in Sources */,
 				4E8BA5132885BD6A002461FB /* Searching.swift in Sources */,
 				4EAB8270287F4A04008906AD /* QueensSolver.swift in Sources */,
