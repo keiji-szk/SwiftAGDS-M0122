@@ -7,7 +7,10 @@
 
 import Foundation
 
-testSolutionLCA()
+// consoleSolutionSushiReview()
+testSolutionSushiReview()
+
+// testSolutionLCA()
 // consoleSolutionLCA()
 
 
