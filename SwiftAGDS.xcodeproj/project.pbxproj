@@ -24,6 +24,7 @@
 		E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95F28930B0E00A308FE /* TreeTraversal.swift */; };
 		E590A802289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */; };
 		E590A805289CDB1600458C4C /* SushiReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A804289CDB1600458C4C /* SushiReviews.swift */; };
+		E590A80A289F165100458C4C /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A809289F165100458C4C /* Diameter.swift */; };
 		E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8B756288872C90046CA9C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		E590A803289C2FF800458C4C /* LCATestCases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LCATestCases; sourceTree = "<group>"; };
 		E590A804289CDB1600458C4C /* SushiReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReviews.swift; sourceTree = "<group>"; };
 		E590A806289CEE8800458C4C /* SushiTestCases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SushiTestCases; sourceTree = "<group>"; };
+		E590A809289F165100458C4C /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		E5F8B756288872C90046CA9C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +167,7 @@
 				E524725C2895B31D001390F9 /* ProblemSet4(TreeBasics).swift */,
 				E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */,
 				E590A804289CDB1600458C4C /* SushiReviews.swift */,
+				E590A809289F165100458C4C /* Diameter.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				4EAB826B287F2DD5008906AD /* ExhaustiveSearch.swift in Sources */,
 				E57ED95D2891D6CA00A308FE /* ProblemSet2(Graph).swift in Sources */,
 				4EAB826D287F41E5008906AD /* Backtracking.swift in Sources */,
+				E590A80A289F165100458C4C /* Diameter.swift in Sources */,
 				4E73288C287C9D93002C1EB3 /* Recursion.swift in Sources */,
 				4E05896A288860930039CF70 /* Stack.swift in Sources */,
 				E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */,

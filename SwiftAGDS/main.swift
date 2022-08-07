@@ -7,8 +7,13 @@
 
 import Foundation
 
+sushiAutoTest()
+//sushiConsole()
+
+// diameter()
+
 // consoleSolutionSushiReview()
-testSolutionSushiReview()
+// testSolutionSushiReview()
 
 // testSolutionLCA()
 // consoleSolutionLCA()

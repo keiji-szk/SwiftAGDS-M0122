@@ -163,7 +163,7 @@ func treeDiameter() {
 		return edgeWeight[from] + maxResult
 	}
 	
-	// make weight graph
+	// make weight graph　(adjecency matrix)
 	let nodeCount = Int(readLine()!)!
 	var weighGraph = Array<Array<Int>>.init(repeating: Array<Int>.init(repeating: 0, count: nodeCount), count: nodeCount)
 	for i in 0..<nodeCount {
