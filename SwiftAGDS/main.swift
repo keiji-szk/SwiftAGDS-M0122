@@ -7,7 +7,10 @@
 
 import Foundation
 
-sushiAutoTest()
+bridges()
+// tomatoFarm()
+
+//sushiAutoTest()
 //sushiConsole()
 
 // diameter()
