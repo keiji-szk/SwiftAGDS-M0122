@@ -7,7 +7,8 @@
 
 import Foundation
 
-bridges()
+
+Solution.canFinish(5, [[1,4],[2,4],[3,1],[3,2]])
 // tomatoFarm()
 
 //sushiAutoTest()

@@ -66,6 +66,8 @@ func tomatoFarm() -> Int {
 	return countDays-1
 }
 
+
+
 func bridges() -> Int{
 	struct Square {
 		let x: Int
@@ -119,7 +121,7 @@ func bridges() -> Int{
 	}
 	
 	var countCosts = 1
-	// printIsland(islandMap: islandMap)
+	printIsland(islandMap: islandMap)
 	while !uncheckSquare.isEmpty {
 		var isLandMarks : [(Square, Int)] = []
 		uncheckSquare = uncheckSquare.filter{ 
@@ -156,14 +158,14 @@ func bridges() -> Int{
 						$0.0.x == nx2 && $0.0.y == ny2
 					}) 
 					
-					// printIsland(islandMap: islandMap)
+					printIsland(islandMap: islandMap)
 					let shortestDistance = isSameDistance ? countCosts * 2 : countCosts * 2 - 1
 					print(shortestDistance)
 					return shortestDistance
 				}
 			}
 		}
-		// printIsland(islandMap: islandMap)
+		printIsland(islandMap: islandMap)
 		countCosts += 1
 	}
 	

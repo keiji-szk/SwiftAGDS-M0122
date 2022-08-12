@@ -28,6 +28,7 @@
 		E590A80D28A177A300458C4C /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A80C28A177A300458C4C /* Town.swift */; };
 		E590A81128A2CF1500458C4C /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A81028A2CF1500458C4C /* Maze.swift */; };
 		E590A81328A2CF4200458C4C /* ProblemSet3(FloodFill).swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A81228A2CF4200458C4C /* ProblemSet3(FloodFill).swift */; };
+		E5D278AE28A57449009E9748 /* ProgramSet6(TopologicalSort).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D278AD28A57449009E9748 /* ProgramSet6(TopologicalSort).swift */; };
 		E5F8B757288872C90046CA9C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8B756288872C90046CA9C /* PriorityQueue.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		E590A80C28A177A300458C4C /* Town.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		E590A81028A2CF1500458C4C /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
 		E590A81228A2CF4200458C4C /* ProblemSet3(FloodFill).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProblemSet3(FloodFill).swift"; sourceTree = "<group>"; };
+		E5D278AD28A57449009E9748 /* ProgramSet6(TopologicalSort).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgramSet6(TopologicalSort).swift"; sourceTree = "<group>"; };
 		E5F8B756288872C90046CA9C /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +176,7 @@
 				E590A81228A2CF4200458C4C /* ProblemSet3(FloodFill).swift */,
 				E524725C2895B31D001390F9 /* ProblemSet4(TreeBasics).swift */,
 				E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */,
+				E5D278AD28A57449009E9748 /* ProgramSet6(TopologicalSort).swift */,
 				E590A804289CDB1600458C4C /* SushiReviews.swift */,
 				E590A809289F165100458C4C /* Diameter.swift */,
 			);
@@ -271,6 +274,7 @@
 				E590A80A289F165100458C4C /* Diameter.swift in Sources */,
 				4E73288C287C9D93002C1EB3 /* Recursion.swift in Sources */,
 				4E05896A288860930039CF70 /* Stack.swift in Sources */,
+				E5D278AE28A57449009E9748 /* ProgramSet6(TopologicalSort).swift in Sources */,
 				E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */,
 				4EAB8272287F4A10008906AD /* Board.swift in Sources */,
 				4E05896C288860970039CF70 /* Queue.swift in Sources */,
