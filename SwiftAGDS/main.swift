@@ -8,7 +8,8 @@
 import Foundation
 
 
-Solution.canFinish(5, [[1,4],[2,4],[3,1],[3,2]])
+var check = leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
+//Solution.canFinish(5, [[1,4],[2,4],[3,1],[3,2]])
 // tomatoFarm()
 
 //sushiAutoTest()
