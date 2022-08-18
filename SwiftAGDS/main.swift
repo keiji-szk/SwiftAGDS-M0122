@@ -7,8 +7,34 @@
 
 import Foundation
 
+func longestConsecutive(_ nums: [Int]) -> Int {
+	if nums.isEmpty {
+		return 0
+	}
+	
+	var sortedNums = nums.sorted(by: <)
+	var curMax = 1
+	var maxVal = curMax
+	var prevNum = sortedNums.first!
+	for num in sortedNums {
+		if num == prevNum {
+			continue
+		} 
+		
+		if num == prevNum + 1 {
+			curMax += 1
+		} else {
+			curMax = 1
+		}
+		
+		maxVal = max(maxVal, curMax)
+		prevNum = num
+	}
+	
+	return maxVal
+}
 
-var check = leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
+// var check = leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
 //Solution.canFinish(5, [[1,4],[2,4],[3,1],[3,2]])
 // tomatoFarm()
 

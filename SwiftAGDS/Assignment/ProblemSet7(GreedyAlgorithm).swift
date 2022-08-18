@@ -97,6 +97,26 @@ func partitionLabels(_ s: String) -> [Int] {
 // problem 5. Task Scheduler
 // I couldn't solve it
 
+func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
+	var taskObject = [Character:Int]()
+	
+	for task in tasks {
+		taskObject[task] = taskObject[task] != nil ? taskObject[task]! + 1 : 1
+	}
+	
+	var mostOftensCount = 0
+	
+	for task in taskObject {
+		if task.value > mostOftensCount {
+			mostOftensCount = task.value
+		}
+	}
+	
+	let answerish = (n + 1)*mostOftensCount - 1
+	
+	return answerish > tasks.count ? answerish : tasks.count
+}
+
 //func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
 //	var mapCharCount = [Character:Int]()
 //	for c in tasks {
