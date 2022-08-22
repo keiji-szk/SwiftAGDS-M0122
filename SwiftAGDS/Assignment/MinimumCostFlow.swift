@@ -6,27 +6,30 @@
 //
 
 // sample 1 : not applied enhancer
-//7 8 4
+//7 8 1
 //1 2 3
 //1 3 3
 //3 6 2
 //6 4 3
 //6 5 8
 //5 7 3
-//6 7 7
-//3 5 6
+//6 7 6
+//3 5 4
+//
+// output:2
 
 // sample 2 : applied enhancer
-//7 8 5
+//7 8 3
 //1 2 3
 //1 3 3
 //3 6 2
 //6 4 3
 //6 5 8
 //5 7 3
-//6 7 7
-//3 5 6
-
+//6 7 6
+//3 5 4
+//
+// output:1
 
 import Foundation
 
@@ -51,6 +54,7 @@ func minCostFlowConsole() {
 
 
 func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
+	
 	func dfs(start: Int, target:Int, adjList: [[(v:Int, c:Int)]], res: inout [(p:Int, q:Int, c:Int)], visited: inout [Bool]) {
 		visited[start] = true
 		for vc in adjList[start] {
@@ -59,6 +63,9 @@ func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
 			}
 			
 			res.append((start, vc.v, vc.c))
+			if vc.v == target {
+				return
+			}			
 			dfs(start: vc.v, target: target, adjList: adjList, res: &res, visited: &visited)
 			if res.last!.q == target || res.last!.p == target {
 				return
@@ -111,23 +118,22 @@ func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
 		var visited = [Bool].init(repeating: false, count: n + 1)
 		var route = [(p:Int, q:Int, c:Int)]()
 		dfs(start: addEdge.p, target: addEdge.q, adjList: adjList, res: &route, visited: &visited)
-		var totalRouteCost = 0
+		
 		var maxCostEdge = route.first!
 		for vc in route {
-			totalRouteCost += vc.c
 			if maxCostEdge.c < vc.c {
 				maxCostEdge = vc
-			}
+			}			
 		}
 		
-		if totalRouteCost < addEdge.c {
+		if maxCostEdge.c < addEdge.c {
 			continue
 		}
 		
-		// should enhancer be applied?
+		// Should enhancer be applied?
 		if !isUsedEnhancer {
-			let deduction = (maxCostEdge.c < d) ? maxCostEdge.c : d
-			if totalRouteCost - deduction < addEdge.c {
+			let deduction = maxCostEdge.c < d ? maxCostEdge.c : d 
+			if maxCostEdge.c - deduction <= addEdge.c {
 				isUsedEnhancer = true
 				continue
 			}
