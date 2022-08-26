@@ -24,6 +24,8 @@
 		E56F7FAE28AD68E000EE1458 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F7FAD28AD68E000EE1458 /* UF.swift */; };
 		E56F7FB028AD6E3D00EE1458 /* Excercises_UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F7FAF28AD6E3D00EE1458 /* Excercises_UnionFind.swift */; };
 		E574BEEA28B1E6CE006AE5FD /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574BEE928B1E6CE006AE5FD /* MinimumCostFlow.swift */; };
+		E574BEED28B46A23006AE5FD /* ProblemSet8(NetWork).swift in Sources */ = {isa = PBXBuildFile; fileRef = E574BEEC28B46A23006AE5FD /* ProblemSet8(NetWork).swift */; };
+		E574BEEF28B565ED006AE5FD /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E574BEEE28B565ED006AE5FD /* IndexPriorityQueue.swift */; };
 		E57ED95D2891D6CA00A308FE /* ProblemSet2(Graph).swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */; };
 		E57ED96028930B0E00A308FE /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57ED95F28930B0E00A308FE /* TreeTraversal.swift */; };
 		E590A802289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift in Sources */ = {isa = PBXBuildFile; fileRef = E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */; };
@@ -68,6 +70,9 @@
 		E56F7FAD28AD68E000EE1458 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		E56F7FAF28AD6E3D00EE1458 /* Excercises_UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercises_UnionFind.swift; sourceTree = "<group>"; };
 		E574BEE928B1E6CE006AE5FD /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
+		E574BEEB28B3F1E0006AE5FD /* mcfTestCases */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mcfTestCases; sourceTree = "<group>"; };
+		E574BEEC28B46A23006AE5FD /* ProblemSet8(NetWork).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProblemSet8(NetWork).swift"; sourceTree = "<group>"; };
+		E574BEEE28B565ED006AE5FD /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		E57ED95C2891D6CA00A308FE /* ProblemSet2(Graph).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProblemSet2(Graph).swift"; sourceTree = "<group>"; };
 		E57ED95F28930B0E00A308FE /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
 		E590A7FF289AD8B400458C4C /* parent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = parent; sourceTree = "<group>"; };
@@ -101,6 +106,7 @@
 				4E058969288860930039CF70 /* Stack.swift */,
 				4E05896B288860970039CF70 /* Queue.swift */,
 				E56F7FAD28AD68E000EE1458 /* UF.swift */,
+				E574BEEE28B565ED006AE5FD /* IndexPriorityQueue.swift */,
 			);
 			path = DataStructures1;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 		E57ED95B2891D6B100A308FE /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E574BEEB28B3F1E0006AE5FD /* mcfTestCases */,
 				E590A806289CEE8800458C4C /* SushiTestCases */,
 				E590A803289C2FF800458C4C /* LCATestCases */,
 				E590A7FF289AD8B400458C4C /* parent */,
@@ -186,9 +193,10 @@
 				E524725C2895B31D001390F9 /* ProblemSet4(TreeBasics).swift */,
 				E590A801289C14A800458C4C /* ProgramSet5(Lowest Common Ancestor) .swift */,
 				E5D278AD28A57449009E9748 /* ProgramSet6(TopologicalSort).swift */,
+				E56F7FAB28AAB49300EE1458 /* ProblemSet7(GreedyAlgorithm).swift */,
+				E574BEEC28B46A23006AE5FD /* ProblemSet8(NetWork).swift */,
 				E590A804289CDB1600458C4C /* SushiReviews.swift */,
 				E590A809289F165100458C4C /* Diameter.swift */,
-				E56F7FAB28AAB49300EE1458 /* ProblemSet7(GreedyAlgorithm).swift */,
 				E56F7FAF28AD6E3D00EE1458 /* Excercises_UnionFind.swift */,
 				E574BEE928B1E6CE006AE5FD /* MinimumCostFlow.swift */,
 			);
@@ -279,10 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E0589682888608D0039CF70 /* Bag.swift in Sources */,
+				E574BEEF28B565ED006AE5FD /* IndexPriorityQueue.swift in Sources */,
 				4E73288F287CA07C002C1EB3 /* String+DPStringTool.swift in Sources */,
 				4EAB826B287F2DD5008906AD /* ExhaustiveSearch.swift in Sources */,
 				E57ED95D2891D6CA00A308FE /* ProblemSet2(Graph).swift in Sources */,
 				4EAB826D287F41E5008906AD /* Backtracking.swift in Sources */,
+				E574BEED28B46A23006AE5FD /* ProblemSet8(NetWork).swift in Sources */,
 				E590A80A289F165100458C4C /* Diameter.swift in Sources */,
 				4E73288C287C9D93002C1EB3 /* Recursion.swift in Sources */,
 				4E05896A288860930039CF70 /* Stack.swift in Sources */,

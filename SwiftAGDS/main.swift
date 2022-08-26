@@ -7,7 +7,19 @@
 
 import Foundation
 
-minCostFlowConsole()
+
+let ret = minimumEffortPath([[1,2,2],[3,8,2],[5,3,5]])
+//let ret = maxProbability(3, [[0,1]], [0.5], 0, 2)
+//let ret = findTheCity(4, [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], 4)
+
+//let ret = findCheapestPrice(5, [[0,1,1],[1,2,1],[2,3,1],[0,3,100],[3,4,100]], 0, 4, 4)
+
+//let ret = findCheapestPrice(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 3)
+print(ret)
+//networkDelayTime([[1,2,1]], 2, 2)
+
+mcfAutoTest()
+//minCostFlowConsole()
 
 // var check = leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
 //Solution.canFinish(5, [[1,4],[2,4],[3,1],[3,2]])

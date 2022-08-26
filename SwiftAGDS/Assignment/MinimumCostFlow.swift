@@ -51,8 +51,6 @@ func minCostFlowConsole() {
 	print(ret)
 }
 
-
-
 func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
 	
 	func dfs(start: Int, target:Int, adjList: [[(v:Int, c:Int)]], res: inout [(p:Int, q:Int, c:Int)], visited: inout [Bool]) {
@@ -112,6 +110,10 @@ func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
 		}
 	}
 	
+	addEdges = addEdges.sorted(by: {
+		$0.c < $1.c
+	})
+	
 	var countDays = 0
 	var isUsedEnhancer = false
 	for addEdge in addEdges {
@@ -145,4 +147,53 @@ func minCostFlow(n: Int, m: Int, d: Int, data: [[Int]]) -> Int {
 	}
 	
 	return countDays
+}
+
+
+func mcfAutoTest() {
+	print("Input the path of the test folder")
+//	var path = readLine()!
+	var path = "/Users/suzukikeiji/Desktop/SwiftAGDS-M0122/SwiftAGDS/Assignment/mcfTestCases"
+	
+	if path.last != "/" {
+		path += "/"
+	}
+	
+	for fileName in getFileInfoListInDir(path){		
+		if fileName.pathExtension != "in" {
+			continue
+		}
+		
+		do {
+			let inputText = try String(contentsOfFile: path + (fileName as String) )	
+			let outputText = try String(contentsOfFile: path + ( fileName.deletingPathExtension as String) + ".out")	
+			
+			// read input file
+			let inputData = inputText.split(separator: "\n")
+			let firstLine = inputData[0].split(separator: " ")
+			
+			let n = Int(firstLine[0])!
+			let m = Int(firstLine[1])!
+			let d = Int(firstLine[2])!
+			
+			var data = [[Int]]()
+			for i in 1...m {
+				let lineData = inputData[i].split(separator: " ").map{Int($0)!}
+				data.append(lineData)
+			}
+			
+			let res = minCostFlow(n: n, m: m, d: d, data: data)
+			let ans = Int(outputText.split(separator: "\n").first!)!
+			
+			if res == ans {
+				print("Succeeded! test:\(fileName), answer is \(ans)")				
+			}else {
+				print("Failured! test:\(fileName), answer is \(ans) but yours is \(res)")
+			}			
+		}catch {
+			print("Failure to read: \(fileName)")
+		}
+	}
+	
+	print("Test completed!")
 }
